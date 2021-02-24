@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GameDemo.Entities
 {
-    class GameSales:Ientity
+    public class GameSales:Ientity
     {
         public int Id { get; set; }
         public string GameName { get; set; }

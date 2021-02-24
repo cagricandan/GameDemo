@@ -1,4 +1,5 @@
 ﻿using GameDemo.Abstract;
+using GameDemo.Adapters;
 using GameDemo.Concrate;
 using GameDemo.Entities;
 using System;
@@ -16,7 +17,7 @@ namespace GameDemo
             gamer.FirstName = "çağrı";
             gamer.LastName = "candan";
             gamer.BirthYear = new DateTime(2000, 1, 11);
-            gamer.NationalityId = "12312313";
+            gamer.NationalityId = "1234";
 
             gamerServices.Add(gamer);
             gamerServices.Update(gamer);

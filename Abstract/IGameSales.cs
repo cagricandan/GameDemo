@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GameDemo.Abstract
 {
-    interface IGameSales
+    public interface IGameSales 
     {
         void Sale(GameSales gameSales,Campaign campaign);
     }

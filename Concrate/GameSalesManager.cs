@@ -10,7 +10,7 @@ namespace GameDemo.Concrate
     {
         public void Sale(GameSales gameSales, Campaign campaign)
         {
-            Console.WriteLine("ürün satıldı");
+            Console.WriteLine(gameSales.GameName + "adlı oyuns satıldı");
         }
     }
 }
